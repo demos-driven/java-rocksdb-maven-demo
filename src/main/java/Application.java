@@ -69,5 +69,8 @@ public class Application {
 
     rocksDB.close();
     System.out.println("Close rocksdb successfully.");
+
+    // Please refer to https://github.com/facebook/rocksdb/tree/main/java/samples/src/main/java
+    // for more detailed configuration, batch operations and transaction-related logics.
   }
 }
